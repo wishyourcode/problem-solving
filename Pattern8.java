@@ -8,12 +8,12 @@ public class Pattern8 {
 //  * * * *
 // * * * * *
     static void pattern(int n){
-        for(int row =0; row<n; row++){
-            for(int space =n-row; space>1; space--){
+        for(int row =n; row>0; row--){
+            for(int space =0; space<row; space++){
                 System.out.print(" ");
             }
-            for(int coll=0; coll<=row; coll++){
-                System.out.print("*  ");
+            for(int coll=n; coll>=row; coll--){
+                System.out.print(" * ");
             }
             System.out.println(" ");
         }
