@@ -2,6 +2,19 @@ public class Pattern5 {
     public static void main(String[] args) {
         pattern(7);
     }
+// * 
+// * * 
+// * * * 
+// * * * * 
+// * * * * * 
+// * * * * * * 
+// * * * * * * * 
+// * * * * * * 
+// * * * * * 
+// * * * * 
+// * * *
+// * *
+// *
     static void pattern(int n) {
         for(int row =0; row < 2*n; row ++){
             if(row<=n){
